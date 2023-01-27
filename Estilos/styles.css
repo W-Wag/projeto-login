@@ -1,0 +1,69 @@
+/*
+    Paleta de cores
+    Verde: #49a09d
+    Lilás: #5f2c82
+*/
+
+* { 
+    padding: 0px;
+    margin: 0px;
+}
+
+
+:root{
+   --color-green: #49a09d;
+   --color-lilas: #5f2c82;
+}
+
+body{
+    background-color: var(--color-lilas);
+}
+
+main{
+    background-color: white;
+    width: 700px;
+
+    padding: 10px;
+    margin: auto;
+    
+}
+
+#imagem{
+    background-image: url(../Imagens/pexels-rahul-pandit-14477034\ \(1\).jpg);
+    background-size: cover;
+    
+    
+    width: 400px;
+    height: 300px;
+
+}
+
+img{
+    width: 200px;
+    height: 200px;
+
+}
+
+#entrar{
+    margin: 3px;
+    padding: 5px;
+    width: 500px;
+    background-color: var(--color-green);
+    color: white;
+    border-radius: 5px;
+}
+#entrar:hover{
+    background-color: #5dcbc8;
+}
+#esqueci{
+    margin: 3px;
+    padding: 5px;
+    width: 500px;
+    background-color: white;
+    color: var(--color-green);
+    border-radius: 5px;
+}
+#esqueci:hover{
+    background-color: var(--color-lilas);
+    color: white;
+}
