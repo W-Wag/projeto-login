@@ -31,7 +31,7 @@ main{
     
 }
 
-section{
+section#login{
     position: absolute;
     top: 50%;
     left: 50%;
@@ -43,20 +43,25 @@ section{
     border-radius: 20px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.496);
 
+    transition: width .3s, height .3s;
+    transition-timing-function: ease;
+
 }
 
-#login > #imagem{
+section#login > div#imagem{
     display: block;
-    background-color: #5f2c82;
-    background-image: url(../Imagens/pexels-rahul-pandit-14477034\ \(1\).jpg);
+
+    background: #5f2c82 url(../Imagens/pexels-rahul-pandit-14477034\ \(1\).jpg) no-repeat;
     background-size: cover;
-    background-repeat: no-repeat;
+    
+    
 
     overflow: hidden;
     
     
     width: 250px;
     height: 200px;
+    
 
 }
 
